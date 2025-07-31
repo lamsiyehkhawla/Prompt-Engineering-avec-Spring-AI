@@ -45,16 +45,21 @@ mvn clean install
 # Run the application
 mvn spring-boot:run
 ```
-## The application will start at:
+The application will start at:
 http://localhost:8890
 
 🧱 Project Structure
 
 bdcc-ai
-├── controllers/         # REST controllers for AI endpoints
+
+├── controllers/  # REST controllers for AI endpoints
+
 ├── outputs/             # Output data models (Movie, MovieList, CIN)
+
 ├── application.properties
+
 ├── pom.xml              # Maven dependencies and plugins
+
 
 🧠 Technologies Used
 - Spring Boot 3.5.4
@@ -71,9 +76,8 @@ bdcc-ai
 
 👤 Author
 Khawla Lamsiyeh
-Feel free to reach out or contribute!
+
 
 📘 References
 - Spring AI Documentation
-
 - OpenAI API Reference
